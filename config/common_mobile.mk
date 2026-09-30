@@ -44,6 +44,16 @@ PRODUCT_PACKAGES += \
     lineage_charger_animation_vendor
 endif
 
+# Clock styles
+PRODUCT_PACKAGES += \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather
+
 # Credential storage
 PRODUCT_PACKAGES += \
     android.software.credentials.prebuilt.xml
