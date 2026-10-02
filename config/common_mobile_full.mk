@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
     Aperture
 endif
 
+TARGET_EXCLUDES_AUDIOFX := true
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
 PRODUCT_PACKAGES += \
     AudioFX
