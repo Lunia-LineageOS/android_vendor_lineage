@@ -38,11 +38,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-ifneq ($(WITH_LINEAGE_CHARGER),false)
 PRODUCT_PACKAGES += \
-    lineage_charger_animation \
-    lineage_charger_animation_vendor
-endif
+    pixel_charger_animation_vendor
 
 # Clock styles
 PRODUCT_PACKAGES += \
