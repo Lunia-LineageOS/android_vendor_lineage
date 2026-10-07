@@ -230,7 +230,7 @@ PRODUCT_PACKAGES += \
 
 # Storage manager
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.storage_manager.enabled=true
+    ro.storage_manager.enabled?=true
 
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
