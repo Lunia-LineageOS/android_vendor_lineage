@@ -38,11 +38,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+WITH_LINEAGE_CHARGER := false
 ifneq ($(WITH_LINEAGE_CHARGER),false)
 PRODUCT_PACKAGES += \
     lineage_charger_animation \
     lineage_charger_animation_vendor
 endif
+
+PRODUCT_PACKAGES += \
+    pixel_charger_animation \
+    pixel_charger_animation_vendor
 
 # Credential storage
 PRODUCT_PACKAGES += \
